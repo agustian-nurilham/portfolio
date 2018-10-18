@@ -1,0 +1,2 @@
+# portfolio
+Hai !, saya Ilham Nur Agustian  seorang junior web programmer, skill dan pengalaman dibidang front end belum terlalu banyak. Namun, untuk sekedar dasar-dasar saya sudah menguasai html, css, php dan javascript. Tidak hanya itu, saya juga bisa menggunakan beberapa framework seperti bootstrap, materialize, codeigniter, dan react js. Kedepannya saya ingin tidak hanya mengusai web programming, tetapi juga menguasai desktop, mobile application, serta desain grafis.
