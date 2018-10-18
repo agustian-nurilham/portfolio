@@ -1,0 +1,123 @@
+@font-face{font-family: "gothic";src: url(../font/GOTHIC.TTF)}
+@font-face{font-family: "hacka";src: url(../font/hacka.ttf)}
+@font-face{font-family: "alanden";src: url(../font/alan_den.ttf)}
+@font-face{font-family: "goodtime";src: url(../font/goodtime.ttf)}
+@font-face{font-family: "amazonen";src: url(../font/amazonen.ttf)}
+
+.header{
+    background-image: url(../img/mybg1.png);
+    background-size: 1300px;
+    height:768px;
+}
+.nav-menu{padding-left: 30px; padding-right: 30px; font-family: goodtime;}
+
+.texthead h4{font-family:'gothic'; color: aliceblue; margin-top:5px;}
+.texthead h5{font:18px 'hacka'; color: aliceblue;}
+.texthead h6{font:25px 'amazonen'; color: aliceblue;}
+
+
+.konten-head{padding-top: 15%; padding-bottom: 5%;}
+
+.konten-web{padding-top: 80px;}
+
+div.boxhead1{
+    height: 200px;  width : 3px;
+    float: right;
+    background-color:  black;
+}
+hr.line-head{
+    width: 350px;
+    height: 3px;
+    border-style: none;
+    animation-name: boxintro;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+.logo-home{
+    padding-top: 10%;
+    width: 50px
+}
+.title-card-konten{
+    background-color: rgba(109, 125, 216, 0.712);
+    color: aliceblue;
+    padding: 10px;
+}
+.descript-konten{
+    background-color: rgba(0, 0, 0, 0.829);
+    color: aliceblue;
+    padding: 10px;
+}
+.title{ 
+    color: aliceblue;
+    padding-top: 15px;
+    font-family: 'Trebuchet MS';
+}
+.title-portfolio{
+    margin-top: -50px;
+    margin-bottom: 110px;
+}
+.parallax-container{
+    height: 100%;
+}
+.profil{
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 30px;
+}
+.descript-konten-skill {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.829);
+    letter-spacing: 0.3px;
+    color: aliceblue;
+    table-layout: auto;
+}
+table.skill td{padding: 5px;}
+
+img.imgcoll{
+    height:50px; width: 50px;
+    border: 3px solid white;
+    padding: 5px;
+    border-radius: 50%;
+}
+.card-icon{
+    width: 30px; 
+    border: 3px solid white;
+    border-radius: 50%;
+}
+.portfolio{
+    color: antiquewhite;
+    padding-bottom: 80px;
+    padding-top: 50px;
+    background-image: url(../img/mybg2.jpg);
+    background-size: 1300px;
+    background-attachment: fixed;
+}
+.profil-portfolio{
+    width: 295px; margin-top:50px; 
+    border: 10px solid rgb(36, 36, 36);
+    border-radius: 10%;
+}
+.web-portfolio{
+    margin-top: 20px;
+    filter: contrast(0.5);width: 250px;
+    border: solid rgb(36, 36, 36);
+}
+div.carousel{
+    height: 200px;
+}
+table.biodata{
+    height: 200px;
+    font: 15px alanden;
+}
+.page-footer{
+    background-image: url(../img/footer.png);
+    padding-left: 50px;
+    padding-right: 50px;
+    font:20px 'Trebuchet MS';
+}
+.row-footer{
+    margin-bottom: -20px;
+}
+.menu-footer li{
+    margin-top: 20px;
+}
