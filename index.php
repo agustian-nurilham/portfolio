@@ -20,12 +20,12 @@
 
 <body>
 <!-- event preloader -->
-<!-- <div class="preloader">
+<div class="preloader">
 	<div class="loading">
 		<img src="img/load2.gif" width="80">
 		<p>Harap Tunggu</p>
 	</div>
-</div> -->
+</div>
 
 <!-- event floating action button -->
 <div class="fixed-action-btn">
