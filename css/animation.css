@@ -1,0 +1,88 @@
+/*photo profil homepage*/
+@keyframes circle {
+    0%   {border: 5px solid rgb(44, 44, 44); left:0px; top:0px;}
+    25%   {border: 5px solid rgb(45, 255, 63); left:0px; bottom:50px;}
+    50%  {border: 5px solid rgb(107, 107, 107); left:200px; top:200px;}
+    75%   {border: 5px solid rgb(0, 85, 7); left:100px; top:50px;}
+    100% {border: 5px solid rgb(27, 27, 27); left:0px; top:0px;}
+}
+img.profimg{
+    border-radius: 50%;
+    padding: 5px; margin-left: 20px;
+    border: 5px solid black;
+    width: 200px;
+    animation: circle 3s;
+    animation-delay: 3s;
+    animation-iteration-count: infinite; 
+}
+/* preloader page */
+.preloader {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    background-color: #fff;
+}
+.preloader .loading {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    font: 14px arial;
+}
+.profil-portfolio:hover{
+    width: 310px;
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 10%;
+    filter: brightness(1.5);
+}
+
+.web-portfolio:hover{
+    filter: contrast(1); width: 270px;
+}
+.line-title{
+    background-color: #fff;
+    height: 3px;
+    margin-bottom: 5px;
+    width: 300px;
+    transition: width 0.5s;
+}
+.line-title:hover{
+    width: 350px;
+}
+
+@keyframes boxintro {
+    0%   {background-color:rgb(51, 51, 51); left:0px; top:0px;}
+    50%  {background-color:rgb(180, 180, 180); left:200px; top:200px;}
+    100% {background-color:rgb(51, 51, 51); left:0px; top:0px;}
+}
+.boxintro{
+    background-color: rgb(22, 22, 22);
+    animation-name: boxintro;
+    animation-duration: 4s;
+    padding: 20px; 
+    animation-iteration-count: infinite;
+}
+
+@keyframes texthead {
+    from{left:-50px;opacity: 0.1;}
+    to {left:0px;}
+}
+.texthead{
+    font-weight: bold;
+    position: relative;
+    animation: texthead 1.8s;
+    animation-delay: 0.6s;
+}
+
+/*efek teks di hover*/
+.txthvr:hover{padding-left: 20px; text-shadow: 0px 0px 5px cyan;}
+
+
+.boxlight:hover{
+    box-shadow: 0px 5px 8px lightblue;
+    margin-bottom: 3px; 
+}
+
